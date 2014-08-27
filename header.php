@@ -59,6 +59,6 @@ if ( !is_singular() ) { echo '</h1>'; }
 <?php if ( $options['slider'] ) { echo show_nivo_slider(); } ?>
 <?php if ( $options['twitter'] ) {
 echo '<div id="twitter-feed">';
-echo '<a class="twitter-timeline" data-theme="dark" data-link-color="#25d0ef" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1" data-show-replies="false" data-screen-name="' . sanitize_text_field( $options["twitname"] ) . '" href="https://twitter.com/' . sanitize_text_field( $options["twitname"] ) . '" data-widget-id="347461587419926528">Tweets by @' . sanitize_text_field( $options["twitname"] ) . '</a>';
+echo '<a class="twitter-timeline" data-theme="dark" data-link-color="#25d0ef" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1" data-show-replies="false" data-screen-name="' . sanitize_text_field( $options["twitname"] ) . '" href="https://twitter.com/' . sanitize_text_field( $options["twitname"] ) . '" data-widget-id="362696933116100610">Tweets by @' . sanitize_text_field( $options["twitname"] ) . '</a>';
 echo '</div>'; } ?>
 <div id="container">
