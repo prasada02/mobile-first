@@ -132,8 +132,8 @@ elseif ( is_404() ) { _e( 'Page Not Found', 'mobile-first' ); }
 echo '</div>';
 }
 }
-add_action( 'init', 'mobilefirst_add_shortcodes' );
-function mobilefirst_add_shortcodes()
+add_action( 'init', 'mobilefirst_shortcodes' );
+function mobilefirst_shortcodes()
 {
 add_filter( 'widget_text', 'do_shortcode' );
 }
